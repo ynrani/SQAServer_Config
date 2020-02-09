@@ -1,0 +1,333 @@
+.control {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+	border-radius: 10px;
+	margin-left: 10px;
+    margin-top: 12px;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #ccc;
+	border-radius: 10px;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+	background: #e53935;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #e53935;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 5px;
+	left: 9px;
+	width: 4px;
+	height: 9px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	
+}
+
+/*----------------------------------------------------------------------------------------  */
+
+.control1 {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+
+}
+
+.control1 input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator1 {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+	border-radius: 10px;
+	margin-left: 10px;
+    margin-top: 12px;
+}
+
+.control--radio1 .control__indicator1 {
+	border-radius: 50%;
+}
+/* Hover and focus states */
+.control1:hover input ~ .control__indicator1,
+.control1 input:focus ~ .control__indicator1 {
+	background: #ccc;
+	border-radius: 10px;
+}
+
+/* Checked state */
+.control1 input:checked ~ .control__indicator1 {
+	background: #2e7d32;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+/* Hover state whilst checked */
+.control1:hover input:not([disabled]):checked ~ .control__indicator1,
+.control1 input:checked:focus ~ .control__indicator1 {
+	background: #2e7d32;
+}
+
+/* Disabled state */
+.control1 input:disabled ~ .control__indicator1 {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator1:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control1 input:checked ~ .control__indicator1:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox1 .control__indicator1:after {
+	top: 5px;
+	left: 9px;
+	width: 4px;
+	height: 9px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	
+}
+
+/*----------------------------------------------------------------------------------------  */
+
+.control2 {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+
+}
+
+.control2 input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator2 {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+	border-radius: 10px;
+	margin-left: 10px;
+    margin-top: 12px;
+}
+
+.control--radio2 .control__indicator2 {
+	border-radius: 50%;
+}
+/* Hover and focus states */
+.control2:hover input ~ .control__indicator2,
+.control2 input:focus ~ .control__indicator2 {
+	background: #ccc;
+	border-radius: 10px;
+}
+
+/* Checked state */
+.control2 input:checked ~ .control__indicator2 {
+	background: #1dad28;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+/* Hover state whilst checked */
+.control2:hover input:not([disabled]):checked ~ .control__indicator2,
+.control2 input:checked:focus ~ .control__indicator2 {
+	background: #1976d2;
+}
+
+/* Disabled state */
+.control2 input:disabled ~ .control__indicator2 {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator2:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control2 input:checked ~ .control__indicator2:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox2 .control__indicator2:after {
+	top: 5px;
+	left: 9px;
+	width: 4px;
+	height: 9px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	
+}
+
+/*----------------------------------------------------------------------------------------  */
+
+.control3 {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+
+}
+
+.control3 input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator3 {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+	border-radius: 10px;
+	margin-left: 10px;
+    margin-top: 12px;
+}
+
+.control--radio3 .control__indicator3 {
+	border-radius: 50%;
+}
+/* Hover and focus states */
+.control3:hover input ~ .control__indicator3,
+.control3 input:focus ~ .control__indicator3 {
+	background: #ccc;
+	border-radius: 10px;
+}
+
+/* Checked state */
+.control3 input:checked ~ .control__indicator3 {
+	background: #f9a825;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+/* Hover state whilst checked */
+.control3:hover input:not([disabled]):checked ~ .control__indicator3,
+.control3 input:checked:focus ~ .control__indicator3 {
+	background: #f9a825;
+}
+
+/* Disabled state */
+.control3 input:disabled ~ .control__indicator3 {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator3:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control3 input:checked ~ .control__indicator3:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox3 .control__indicator3:after {
+	top: 5px;
+	left: 9px;
+	width: 4px;
+	height: 9px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	
+}
